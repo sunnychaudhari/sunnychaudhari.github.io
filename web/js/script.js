@@ -31,8 +31,8 @@ $(document).ready(function(){
 	    seconds = parseInt(seconds_left % 60);
 	     
 	    // format countdown string + set tag value
-	    countdown.innerHTML = "<div class='row'><div class='col-md-12'>"+ days + " : " + hours + " : "
-	    + minutes + " : " + seconds +"</div></div>";  
+	    countdown.innerHTML = days + " : " + hours + " : "
+	    + minutes + " : " + seconds;  
 	 
 	}, 1000);
 
